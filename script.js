@@ -1,4 +1,4 @@
-var nombre = document.getElementById("name").value;
+var nombre = document.getElementById("name").value; 
 var mail = document.getElementById("email").value;
 var servicio = document.getElementsByClassName("servicio").value;
 var consulta = document.getElementById("consulta").value;
@@ -49,6 +49,10 @@ function presionarEnter(e){
 		}
 	}
 }
+
+console.log(JSON.stringify(cotiServicio));
+
+
 
 
 
